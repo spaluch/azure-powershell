@@ -7,6 +7,7 @@ $Azure_Ogolne = "d3d4df2b-1371-4876-92ae-f7b0b12820a7"
 
 #Wybór subskrypcji
 $subscriptionId = $Azure_Bios
+Select-AzureRmSubscription -SubscriptionId $Azure_Bios
 
 #Ogolne
 $ResourceGroupName = "" #Nazwa ResourceGroupy
